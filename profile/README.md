@@ -1,6 +1,3 @@
-**Reactive Network** serves as a fully EVM-compatible interoperable execution layer, enabling developers to craft
-the next wave of dApps with the novel concept of Reactive Smart Contracts.
+**Reactive Network** is a fully EVM-compatible execution layer that allows developers to create the next wave of dApps using Reactive Smart Contracts. These contracts differ from traditional ones by using Inversion-of-Control for the transaction lifecycle, driven by data flows across blockchain ecosystems rather than user input.
 
-Unlike conventional Smart Contracts, Reactive Smart Contracts introduce Inversion-of-Control for the transaction
-lifecycle. While user input controls the flow of traditional Smart Contracts through transactions posted to a
-blockchain network, Reactive Smart Contracts are driven by the data flows within various blockchain ecosystems.
+Reactive Smart Contracts receive event logs from various chains, executing Solidity logic based on these events instead of user transactions. They can independently determine the need to transmit data to the destination chain, enabling conditional state changes. Reactive Network offers fast and cost-effective computation through a proprietary parallelized EVM implementation.
